@@ -1,0 +1,200 @@
+body{
+    background: #ffe9c2;
+background: linear-gradient(90deg,rgba(255, 233, 194, 1) 0%, rgba(222, 184, 153, 1) 50%, rgba(158, 142, 103, 1) 100%);
+
+}
+
+.heading h3{
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.heading-row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.heading img{
+    display: block;
+    width: 55px; 
+    margin-right: 55px;
+}
+
+.Snow{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url('200.gif') repeat;
+    opacity: 0.5;
+    z-index: -1; /*Dapat dari internet*/
+}
+.discolight{
+    font-size: 40px;
+    margin: 0;
+    background: linear-gradient(  
+        to right, /*Dapat dari internet*/
+        #7953cd 20%,
+        #00affa 30%,
+        #0190cd 70%,
+        #764ada 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+
+
+
+.Musicas{
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.Musicaisasi {
+  padding: 20px;
+  border-radius: 8px;
+  width: 270px;
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.25);
+  aspect-ratio: 1 / 1;
+  display: block;
+  object-fit: cover;
+  
+    
+}
+
+.Musicaisasi h2 {
+  font-size: 22px;
+  font-family: Poppins , sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Musicaisasi p {
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Musicaisasi audio {
+  width: 100%;
+  margin-top: 10px;
+}
+
+
+
+.Musicaisasi img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  
+}
+
+.Membakar{
+  background: #ffe9c2;
+background: linear-gradient(90deg,rgba(255, 233, 194, 1) 0%, rgba(222, 184, 153, 1) 50%, rgba(158, 142, 103, 1) 100%);
+;
+  padding: 20px;
+  border-radius: 15px;
+  width: 270px;
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.25);
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+    
+}
+
+.Membakar img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+
+  
+}
+
+.Membakar h2 {
+  font-size: 22px;
+  font-family: Poppins , sans-serif;
+  font-weight: bold;
+}
+
+.Membakar h3 {
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.Membakar p{
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    
+}
+
+
+.Musicaisasi:hover {
+  transform: scale(1.1);
+  transition: 0.35s;
+  background: linear-gradient(
+        to right,
+        #7953cd 20%,
+        #00affa 30%,
+        #0190cd 70%,
+        #764ada 80%
+    );
+    -webkit-background-clip: text; ;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+
+.Musicaisasi:not(:hover) {
+    transform: scale(1);
+    background: #ffe9c2;
+background: linear-gradient(90deg,rgba(255, 233, 194, 1) 0%, rgba(222, 184, 153, 1) 50%, rgba(158, 142, 103, 1) 100%);
+;
+    transition: 0.35s;
+}
+
+
+.Berkaki h2{
+    font-size: 18px;
+    color: #333;    
+    text-align: center;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+    margin-top: 50px;
+
+}
+
+.intro{
+    margin-top: 8px;
+}
